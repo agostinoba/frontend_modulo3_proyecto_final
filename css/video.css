@@ -1,0 +1,46 @@
+/*******************************************************************************/
+/**                                  Article                                  **/
+/*******************************************************************************/
+.historia-video-article {
+    display:          flex;
+    flex-direction:   column;
+    align-items:      center;
+    padding:          100px;
+    gap:              80px;
+}
+
+.historia-video-section {
+    background-color: var(--blue);
+    width:            75%;
+}
+
+.video {
+    width:            100%;
+}
+
+.historia-video-container {
+    padding:          25px;
+    display:          flex;
+    justify-content:  space-between;
+    align-items:      center;
+}
+
+.historia-video-media {
+    display:          flex;
+    gap:              20px;
+}
+
+#button-play, #button-pause {
+    width:            100px;
+}
+
+.historia-video-button {
+    box-shadow:       1px 1px var(--gray);
+    padding:          10px;
+    background-color: var(--light);
+    border:           1px solid var(--blue);
+}
+
+.historia-video-time {
+    color:            var(--light);
+}

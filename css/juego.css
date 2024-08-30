@@ -1,0 +1,46 @@
+/*******************************************************************************/
+/**                                    Main                                   **/
+/*******************************************************************************/
+.juego-section {
+    display:          flex;
+    flex-direction:   column;
+    align-items:      center;
+}
+
+.juego-container-boxes {
+    display:          flex;
+}
+
+.juego-box {
+    width:            275px;
+    height:           400px;
+    display:          flex;
+    border:           1px solid var(--black);
+    background-color: var(--gray);
+    justify-content:  center;
+    align-items:      center;
+}
+
+.juego-box:hover {
+    background-color: var(--blue);
+}
+
+.juego-container-img {
+    gap:              7px;
+    margin:           50px;
+}
+
+.juego-img {
+    width:            273px;
+    height:           400px;
+}
+
+.juego-button-restart {
+    margin:           auto;
+    padding:          10px 105px;
+    color:            var(--light);
+    background-color: var(--blue);
+    box-shadow:       2px 2px var(--gray);
+    border:           1px solid var(--blue);
+    display:          flex;
+}

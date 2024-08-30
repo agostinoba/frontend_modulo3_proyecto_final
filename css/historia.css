@@ -1,0 +1,19 @@
+/*******************************************************************************/
+/**                                    Main                                   **/
+/*******************************************************************************/
+.historia-container {
+    display:        flex;
+    align-items:    center;
+    padding:        80px 40px;
+    gap:            20px;
+}
+
+.historia-container-text {
+    display:        flex;
+    flex-direction: column;
+    align-items:    center;
+    width:          80%;
+}
+.historia-img {
+    width:          50%;
+}

@@ -1,0 +1,134 @@
+/*******************************************************************************/
+/**                                    Root                                   **/
+/*******************************************************************************/
+:root {
+    --blue:               #2F3645;   /* Color azul                     */
+    --light:              #FFFFFF;   /* Color blanco fondo y sombras   */
+    --lightGradient:      #FFFFFF00; /* Color blanco fondo y sombras   */
+    --blueGradient:       #2F3645B3; /* Color azul con transparencia   */
+    --blueGradient2:      #767A81DE; /* Color azul con transparencia 2 */
+    --gray:               #808080;   /* Color sombra gris              */
+    --black:              #000000;   /* Color sombra negra             */
+
+    --code-rosepine-love: #eb6f92;
+    --code-rosepine-foam: #9ccfd8;
+    --code-rosepine-gold: #f6c177;
+    --code-rosepine-iris: #c4a7e7;
+}
+
+/*******************************************************************************/
+/**                                    Body                                   **/
+/*******************************************************************************/
+@font-face {
+    font-family:     "Raleway";
+    src:             url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    margin:          0px;
+    padding:         0px;
+    font-family:     'Raleway', sans-serif;
+}
+
+/*******************************************************************************/
+/**                                    Main                                   **/
+/*******************************************************************************/
+main {
+    padding:         100px 20px;
+}
+
+h2 {
+    text-shadow:     1px 1px var(--light), 2px 2px var(--gray);
+    font-size:       calc(2em + 18px);
+    font-weight:     500;
+    text-align:      center;
+    color:           var(--blue);
+}
+
+/*******************************************************************************/
+/**                                     Nav                                   **/
+/*******************************************************************************/
+.navigation-main {
+    width:           100%;
+    padding:         15px;
+    position:        fixed;
+    align-items:     center;
+    display:         flex;
+    justify-content: space-between;
+}
+
+.navigation-menu {
+    width:           300px;
+    padding-right:   40px;
+    display:         flex;
+    justify-content: space-around;
+}
+
+.navigation-menu-item {
+    list-style-type: none;
+}
+
+.navigation-menu-item-link {
+    text-decoration: none;
+    font-size:       1.5em;
+    font-weight:     500;
+    color:           var(--light);
+    text-shadow:     1px 1px gray, 2px 3px black;
+}
+
+.navigation-menu-item-link:hover {
+    color:           var(--light);
+    text-shadow:     1px 1px var(--gray), 2px 3px var(--blue);
+}
+
+.navigation-menu-item-link {
+    color:           var(--blue);
+    text-shadow:     1px 1px var(--light), 2px 3px var(--gray);
+}
+
+/*******************************************************************************/
+/**                                   Header                                  **/
+/*******************************************************************************/
+.titulo-principal {
+    background:      url(../img/base-background.jpg) no-repeat fixed center;
+    background-size: cover;
+    height:          1000px;
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+}
+
+.titulo-principal-text {
+    color:           var(--light);
+    font-weight:     300;
+    font-size:       calc(3em + 18px);
+    text-shadow:     2px 2px var(--gray), 6px 6px var(--black);
+    text-align:      center;
+}
+
+/*******************************************************************************/
+/**                                   Footer                                  **/
+/*******************************************************************************/
+.footer {
+    background:      var(--blue);
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    padding:         60px;
+    color:           var(--light);
+}
+
+.footer-left {
+    display:         flex;
+    justify-content: space-between;
+    width:           300px;
+}
+
+.footer-left-logo {
+    height:          80px;
+}
+
+.footer-left-text {
+    text-align:      center;
+    font-size:       15px;
+}

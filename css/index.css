@@ -1,0 +1,35 @@
+/*******************************************************************************/
+/**                                    Main                                   **/
+/*******************************************************************************/
+.index-section {
+    margin:          100px;
+    display:         flex;
+    justify-content: space-evenly;
+    gap:             20px;
+}
+
+.index-container-content {
+    width:           450px;
+    gap:             40px;
+    align-items:     center;
+    display:         flex;
+    flex-direction:  column;
+    justify-content: space-between;
+}
+
+.index-container-img {
+    width:           100%;
+}
+
+.index-container-text {
+    width:           90%;
+    text-align:      center;
+}
+.index-container-link {
+  padding:           10px;
+  background-color:  var(--blue);
+  text-align:        center;
+  text-decoration:   none;
+  width:             80%;
+  color:             var(--light);
+}

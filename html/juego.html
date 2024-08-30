@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Juego</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon"       href="../img/logo.png"   >
+        <link rel="stylesheet" href="../css/style.css"  >
+        <link rel="stylesheet" href="../css/monitor.css">
+        <link rel="stylesheet" href="../css/juego.css"  >
+    </head>
+    <body>
+        <!------------------------------------------ NAV ------------------------------------------->
+        <nav class="navigation-main">
+            <a class="navigation-main-link" href="./index.html">
+                <svg width="200" height="100">
+                    <rect id     = "svg-mon"
+                          width  = "80"
+                          height = "40"
+                          x      = "35"
+                          y      = "5"
+                          rx     = "3">
+                    </rect>
+                    <rect id     = "svg-win"
+                          width  = "70"
+                          height = "30"
+                          x      = "40"
+                          y      = "10"
+                          rx     = "3">
+                    </rect>
+                    <rect id     = "svg-sup"
+                          width  = "20"
+                          height = "10"
+                          x      = "65"
+                          y      = "47">
+                    </rect>
+                    <line id="svg-code-sep"
+                          x1 = "75"
+                          y1 = "10"
+                          x2 = "75"
+                          y2 = "40">
+                    </line>
+                    <line id="svg-code-1-1"
+                          x1 = "45"
+                          y1 = "17"
+                          x2 = "70"
+                          y2 = "17">
+                    </line>
+                    <line id="svg-code-1-2"
+                          x1 = "45"
+                          y1 = "22"
+                          x2 = "70"
+                          y2 = "22">
+                    </line>
+                    <line id="svg-code-1-3"
+                          x1 = "45"
+                          y1 = "27"
+                          x2 = "70"
+                          y2 = "27">
+                    </line>
+                    <line id="svg-code-1-4"
+                          x1 = "45"
+                          y1 = "32"
+                          x2 = "70"
+                          y2 = "32">
+                    </line>
+                    <line id="svg-code-2-1"
+                          x1 = "80"
+                          y1 = "17"
+                          x2 = "105"
+                          y2 = "17">
+                    </line>
+                    <line id="svg-code-2-2"
+                          x1 = "80"
+                          y1 = "22"
+                          x2 = "105"
+                          y2 = "22">
+                    </line>
+                    <line id="svg-code-2-3"
+                          x1 = "80"
+                          y1 = "27"
+                          x2 = "105"
+                          y2 = "27">
+                    </line>
+                    <line id="svg-code-2-4"
+                          x1 = "80"
+                          y1 = "32"
+                          x2 = "105"
+                          y2 = "32">
+                    </line>
+                    <polygon id = "svg-keyboard-1"
+                             points= "52 60, 98 60, 113 72, 32 72">
+                             <!--     x1 y1  x2 y1   x2 y2  x1 y2 -->
+                    </polygon>
+                    <polygon id = "svg-keyboard-2"
+                             points= "54 62, 96 62, 107 70, 39 70">
+                             <!--     x1 y1  x2 y1   x2 y2  x1 y2 -->
+                    </polygon>
+                </svg>
+            </a>
+            <ul class="navigation-menu">
+                <li class="navigation-menu-item">
+                    <a class="navigation-menu-item-link" href="./historia.html">
+                        HISTORIA
+                    </a>
+                </li>
+                <li class="navigation-menu-item">
+                    <a class="navigation-menu-item-link" href="./juego.html"   >
+                        JUGUEMOS
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!----------------------------------------- HEADER ----------------------------------------->
+        <header class="titulo-principal">
+            <h1 class="titulo-principal-text">
+                JUEGUEMOS UN POCO
+            </h1>
+        </header>
+
+        <!------------------------------------------ MAIN ------------------------------------------>
+        <main>
+            <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+            <section class="juego-section">
+                <div class="juego-container-boxes">
+                    <div class="juego-box">
+                        <p>Arrastre y suelte la imágen aquí</p>
+                    </div>
+                    <div class="juego-box">
+                        <p>Arrastre y suelte la imágen aquí</p>
+                    </div>
+                    <div class="juego-box">
+                        <p>Arrastre y suelte la imágen aquí</p>
+                    </div>
+                </div>
+                <div class="juego-container-img">
+                    <img class="juego-img" id="center" src="../img/juego-puzzle-center.png" alt="puzzle img">
+                    <img class="juego-img" id="left"   src="../img/juego-puzzle-left.png"   alt="puzzle img">
+                    <img class="juego-img" id="right"  src="../img/juego-puzzle-right.png"  alt="puzzle img">
+                </div>
+            </section>
+            <button class="juego-button-restart">
+                REINICIAR
+            </button>
+        </main>
+
+        <!----------------------------------------- FOOTER ----------------------------------------->
+        <footer class="footer">
+            <div class="footer-left">
+                <img class="footer-left-logo" src="../img/logo.png" alt="logo">
+
+                <h3 class="footer-left-text">
+                    PROGRAMACIÓN <br>
+                    E            <br>
+                    HISTORIA
+                </h3>
+            </div>
+            <div class="footer-right">
+                Sitio con fines educativos - Creado por Agostino Barbetti
+            </div>
+        </footer>
+
+        <script src="../js/main.js" ></script>
+        <script src="../js/juego.js"></script>
+
+    </body>
+</html>
